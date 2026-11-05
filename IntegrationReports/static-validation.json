@@ -1,0 +1,1077 @@
+{
+  "unity": "6000.3.11f1",
+  "runtimeCompilation": "passed after restoring original interaction (Roslyn + Unity references, exit 0)",
+  "editorCompilation": "passed after updating placeholder-button validation (Roslyn + Unity references, exit 0)",
+  "unityBatchValidation": "Unity exited with code 1 before asset import / executeMethod; see unity-editor.log",
+  "duplicateGuids": [],
+  "missingLocalReferences": [],
+  "missingScripts": [
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Prefabs\\Text Popup.prefab",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Prefabs\\Text Popup.prefab",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\05 - Style Tags.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\06 - Extra Rich Text Examples.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\06 - Extra Rich Text Examples.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\06 - Extra Rich Text Examples.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\08 - Improved Text Alignment.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\08 - Improved Text Alignment.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\08 - Improved Text Alignment.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\10 - Bullets & Numbered List Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\10 - Bullets & Numbered List Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\11 - The Style Tag.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\11 - The Style Tag.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\11 - The Style Tag.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\12 - Link Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\12 - Link Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\12 - Link Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\13 - Soft Hyphenation.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\13 - Soft Hyphenation.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\13 - Soft Hyphenation.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\15 - Inline Graphics & Sprites.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\15 - Inline Graphics & Sprites.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\15 - Inline Graphics & Sprites.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\16 - Linked text overflow mode example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\16 - Linked text overflow mode example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\17 - Old Computer Terminal.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\17 - Old Computer Terminal.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\17 - Old Computer Terminal.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\19 - Masking Texture & Soft Mask.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\19 - Masking Texture & Soft Mask.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\19 - Masking Texture & Soft Mask.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\22 - Basic Scripting Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\22 - Basic Scripting Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\22 - Basic Scripting Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\23 - Animating Vertex Attributes.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\23 - Animating Vertex Attributes.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\25 - Sunny Days Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\25 - Sunny Days Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "7a68c43fe1f2a47cfa234b5eeaa98012"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "7a68c43fe1f2a47cfa234b5eeaa98012"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "7a68c43fe1f2a47cfa234b5eeaa98012"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "7a68c43fe1f2a47cfa234b5eeaa98012"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "23c1ce4fb46143f46bc5cb5224c934f6"
+    }
+  ],
+  "activeMainMenuButtonsWithoutHandler": [
+    "203414410",
+    "360126656",
+    "522663063"
+  ],
+  "mainMenuHandlers": [
+    {
+      "id": "318273640",
+      "target": "534028796",
+      "method": "SetActive"
+    },
+    {
+      "id": "318273640",
+      "target": "1205356804",
+      "method": "SetActive"
+    },
+    {
+      "id": "813916350",
+      "target": "1205356804",
+      "method": "SetActive"
+    },
+    {
+      "id": "813916350",
+      "target": "875251317",
+      "method": "SetActive"
+    },
+    {
+      "id": "1315202777",
+      "target": "2200000064",
+      "method": "ContinueFromCharacters"
+    },
+    {
+      "id": "1562042576",
+      "target": "875251317",
+      "method": "SetActive"
+    },
+    {
+      "id": "1562042576",
+      "target": "1205356804",
+      "method": "SetActive"
+    },
+    {
+      "id": "1934684328",
+      "target": "875251317",
+      "method": "SetActive"
+    },
+    {
+      "id": "1934684328",
+      "target": "534028796",
+      "method": "SetActive"
+    },
+    {
+      "id": "2017761334",
+      "target": "2200000064",
+      "method": "QuitGame"
+    },
+    {
+      "id": "2200000008",
+      "target": "2200000064",
+      "method": "ChooseArena1"
+    },
+    {
+      "id": "2200000017",
+      "target": "2200000064",
+      "method": "ChooseArena2"
+    },
+    {
+      "id": "2200000026",
+      "target": "2200000064",
+      "method": "BackToCharacters"
+    },
+    {
+      "id": "2200000040",
+      "target": "2200000064",
+      "method": "StartMatch"
+    },
+    {
+      "id": "2200000049",
+      "target": "2200000064",
+      "method": "StartMatch"
+    },
+    {
+      "id": "2200000058",
+      "target": "2200000064",
+      "method": "BackToMaps"
+    }
+  ],
+  "coreDependencyMissingReferences": [],
+  "coreDependencyAssets": 109,
+  "preexistingMissingReferencesOutsideCore": [
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Materials\\FX\\PolygonBattleRoyale_FX_Smoke.mat",
+      "guid": "63343626dde95de409e37d8c3d8b2c0b"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Bullet_Shell_FX.prefab",
+      "guid": "22af96f9ba68eb54b9ce79bdf6661284"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Explosion_Concrete_Rubble_Large_FX.prefab",
+      "guid": "6e7efb605df160c4da8bbfc504f4c926"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Explosion_Smoke_FX.prefab",
+      "guid": "ac95696e44a958546b89f4c77a633d6a"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Explosion_Smoke_FX.prefab",
+      "guid": "42e0384be8104584cbcc3a1fadaafb79"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\GunShot_Smoke_FX.prefab",
+      "guid": "ac95696e44a958546b89f4c77a633d6a"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Smoke_FX.prefab",
+      "guid": "ac95696e44a958546b89f4c77a633d6a"
+    },
+    {
+      "file": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Prefabs\\FX\\Smoke_Small_Dark_FX.prefab",
+      "guid": "ac95696e44a958546b89f4c77a633d6a"
+    },
+    {
+      "file": "Assets\\Settings\\DefaultVolumeProfile.asset",
+      "guid": "60f3b30c03e6ba64d9a27dc9dba8f28d"
+    },
+    {
+      "file": "Assets\\Settings\\DefaultVolumeProfile.asset",
+      "guid": "0fd9ee276a1023e439cf7a9c393195fa"
+    },
+    {
+      "file": "Assets\\Settings\\DefaultVolumeProfile.asset",
+      "guid": "5a00a63fdd6bd2a45ab1f2d869305ffd"
+    },
+    {
+      "file": "Assets\\Settings\\DefaultVolumeProfile.asset",
+      "guid": "74955a4b0b4243bc87231e8b59ed9140"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "e5c6678ed2aaa91408dd3df699057aae"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "03cfc4915c15d504a9ed85ecc404e607"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "53a11f4ebaebf4049b3638ef78dc9664"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "8f96cd657dc40064aa21efcc7e50a2e7"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "57d7c4c16e2765b47a4d2069b311bffe"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "24ec0e140fb444a44ab96ee80844e18e"
+    },
+    {
+      "file": "Assets\\Settings\\PC_Renderer.asset",
+      "guid": "b9a23f869c4fd45f19c5ada54dd82176"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Materials\\Ground - Logo Scene.mat",
+      "guid": "8b8c8a10edf94ddc8cc4cc4fcd5696a9"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Materials\\Ground - Surface Shader Scene.mat",
+      "guid": "c45cd05946364f32aba704f0853a975b"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Materials\\Ground - URP.mat",
+      "guid": "c45cd05946364f32aba704f0853a975b"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Prefabs\\Text Popup.prefab",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Prefabs\\Text Popup.prefab",
+      "guid": "316f956b856b45c448987b5018ec3ef4"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo - URP.mat",
+      "guid": "8b8c8a10edf94ddc8cc4cc4fcd5696a9"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo - URP.mat",
+      "guid": "f8caea216d5e7af42872b30cd96a235f"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo.mat",
+      "guid": "8b8c8a10edf94ddc8cc4cc4fcd5696a9"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Bangers SDF Logo.mat",
+      "guid": "f8caea216d5e7af42872b30cd96a235f"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Roboto-Bold SDF - HDRP Unlit.mat",
+      "guid": "da692e001514ec24dbc4cca1949ff7e8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Unity SDF - HDRP LIT - Bloom.mat",
+      "guid": "da692e001514ec24dbc4cca1949ff7e8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Resources\\Fonts & Materials\\Unity SDF - HDRP LIT - Outline.mat",
+      "guid": "da692e001514ec24dbc4cca1949ff7e8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\01-  Single Line TextMesh Pro.unity",
+      "guid": "5cb611ed8508d904ebba194afcee9c98"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\02 - Multi-line TextMesh Pro.unity",
+      "guid": "2bf015e748557a84c8fa6bfc44e4d685"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\03 - Line Justification.unity",
+      "guid": "56510bd4b3627c840a063bd270324c89"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\04 - Word Wrapping.unity",
+      "guid": "088d960ecbf7a1d4a8f94993c066a0ff"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\05 - Style Tags.unity",
+      "guid": "6a9165d4abc743c469f4e1f2ee39605c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\05 - Style Tags.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\06 - Extra Rich Text Examples.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\06 - Extra Rich Text Examples.unity",
+      "guid": "6a9165d4abc743c469f4e1f2ee39605c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\07 - Superscript & Subscript Example.unity",
+      "guid": "955cc2a4737565a4293837beb489fb59"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\08 - Improved Text Alignment.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\08 - Improved Text Alignment.unity",
+      "guid": "6a9165d4abc743c469f4e1f2ee39605c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\09 - Margin Tag Example.unity",
+      "guid": "6a9165d4abc743c469f4e1f2ee39605c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\10 - Bullets & Numbered List Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\11 - The Style Tag.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\12 - Link Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\12a - Text Interactions.unity",
+      "guid": "500878462c972a14d87cb770d2b59923"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\13 - Soft Hyphenation.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\14 - Multi Font & Sprites.unity",
+      "guid": "6b9a46634d3f3f0498640b1a019d5853"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\15 - Inline Graphics & Sprites.unity",
+      "guid": "a9df86876be30af4e9b5f5975d8ee7d8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\15 - Inline Graphics & Sprites.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\16 - Linked text overflow mode example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\17 - Old Computer Terminal.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\17 - Old Computer Terminal.unity",
+      "guid": "0b4bdfba56924184bbe7c948f934fb70"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\18 - ScrollRect & Masking & Layout.unity",
+      "guid": "316f956b856b45c448987b5018ec3ef4"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\19 - Masking Texture & Soft Mask.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\20 - Input Field with Scrollbar.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\22 - Basic Scripting Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\23 - Animating Vertex Attributes.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\24 - Surface Shader Example URP.unity",
+      "guid": "92bb8874fcf329247bea65570fd7532a"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\24 - Surface Shader Example.unity",
+      "guid": "92bb8874fcf329247bea65570fd7532a"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\25 - Sunny Days Example.unity",
+      "guid": "f5f67c52d1564df4a8936ccd202a3bd8"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\26 - Dropdown Placeholder Example.unity",
+      "guid": "f70555f144d8491a825f0804e09c671c"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example\\Sky and Fog Volume Profile.asset",
+      "guid": "0d7593b3a9277ac4696b20006c21dde2"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "73c176f402d2c2f4d929aa5da7585d17"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "7a68c43fe1f2a47cfa234b5eeaa98012"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "e31164aa529c1144b9f1820dbd4d2aca"
+    },
+    {
+      "file": "Assets\\TextMesh Pro\\Examples & Extras\\Scenes\\28 - HDRP Shader Example.unity",
+      "guid": "23c1ce4fb46143f46bc5cb5224c934f6"
+    }
+  ],
+  "visualPreservation": "Original Canvas, CanvasScaler, RectTransforms and Images unchanged; Canvas child list extended with map and summary panels.",
+  "teacherModified": false,
+  "mainMenuGuid": "a1aa4a5d6eaee87499457d9a3701576c",
+  "mainMenuHandlerErrors": [],
+  "visualBlockDifferences": [],
+  "backupMatchesOriginal": true,
+  "coreMissingScriptReferences": [],
+  "originalPlaceholderButtons": "Créditos, Opciones y Network restaurados como interactuables, con sus eventos originales vacíos.",
+  "originalComponentStatesRestored": [
+    {
+      "id": "203414410",
+      "prop": "m_Interactable",
+      "value": "1"
+    },
+    {
+      "id": "360126656",
+      "prop": "m_Interactable",
+      "value": "1"
+    },
+    {
+      "id": "522663063",
+      "prop": "m_Interactable",
+      "value": "1"
+    },
+    {
+      "id": "534028798",
+      "prop": "m_Enabled",
+      "value": "1"
+    }
+  ],
+  "originalComponentStateDifferences": [],
+  "originalNavigationDifferences": []
+}

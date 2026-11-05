@@ -1,30 +1,35 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MenuNavigation : MonoBehaviour
 {
+    [Header("Boton inicial del panel")]
     public GameObject firstSelectedButton;
 
+    [Header("Seleccion dinamica")]
     public bool IsInteractable;
 
     private Coroutine selectionCoroutine;
-    
-    private void OnEnable(){
-        selectionCoroutine = StartCoroutine(selectFirstButton());
+
+    private void OnEnable()
+    {
+        selectionCoroutine = StartCoroutine(SelectFirstButton());
     }
 
-    private void OnDisable(){
-        if (selectionCoroutine != null){
+    private void OnDisable()
+    {
+        if (selectionCoroutine != null)
+        {
             StopCoroutine(selectionCoroutine);
             selectionCoroutine = null;
         }
     }
 
-    private IEnumerator selectFirstButton()
+    private IEnumerator SelectFirstButton()
     {
-        while(true)
+        while (true)
         {
             yield return null;
 
@@ -52,10 +57,11 @@ public class MenuNavigation : MonoBehaviour
 
             if (!selectable.interactable)
             {
-                if(IsInteractable)
+                if (IsInteractable)
                 {
                     continue;
                 }
+
                 yield break;
             }
 

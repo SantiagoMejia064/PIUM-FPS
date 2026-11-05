@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -27,6 +26,7 @@ public class PlayerSelectionManager : MonoBehaviour
     private PlayerSlot[] players = new PlayerSlot[4];
 
     public static List<GameObject> SelectedPlayerPrefabs = new List<GameObject>();
+
     public static List<Sprite> SelectedPlayerSprites = new List<Sprite>();
 
     private NIS controls;
@@ -39,14 +39,14 @@ public class PlayerSelectionManager : MonoBehaviour
         {
             int count = 0;
 
-            for (int i = 0; i< players.Length; i++)
+            for (int i = 0; i < players.Length; i++)
             {
                 if (players[i].active)
                 {
                     count++;
                 }
-
             }
+
             return count;
         }
     }
@@ -57,14 +57,14 @@ public class PlayerSelectionManager : MonoBehaviour
         {
             int count = 0;
 
-            for (int i = 0; i< players.Length; i++)
+            for (int i = 0; i < players.Length; i++)
             {
                 if (players[i].active && players[i].confirmed)
                 {
                     count++;
                 }
-
             }
+
             return count;
         }
     }
@@ -76,12 +76,16 @@ public class PlayerSelectionManager : MonoBehaviour
             players[i] = new PlayerSlot();
             players[i].characterIndex = -1;
 
-            if (playerPanels != null && i < playerPanels.Length && playerPanels[i] != null)
+            if (playerPanels != null &&
+                i < playerPanels.Length &&
+                playerPanels[i] != null)
             {
                 playerPanels[i].SetActive(false);
             }
 
-            if (playerImages != null && i < playerImages.Length && playerImages[i] != null)
+            if (playerImages != null &&
+                i < playerImages.Length &&
+                playerImages[i] != null)
             {
                 playerImages[i].sprite = null;
             }
@@ -89,7 +93,7 @@ public class PlayerSelectionManager : MonoBehaviour
 
         SelectedPlayerPrefabs.Clear();
         SelectedPlayerSprites.Clear();
-        
+
         UpdateStartButton();
     }
 
@@ -104,8 +108,8 @@ public class PlayerSelectionManager : MonoBehaviour
 
         controls.Menu.Navigate.performed += OnNavigatePerformed;
         controls.Menu.Navigate.canceled += OnNavigateCanceled;
-        
-        controls.Menu.confirm.performed += OnConfirmPerformed;
+
+        controls.Menu.Confirm.performed += OnConfirmPerformed;
         controls.Menu.Cancel.performed += OnCancelPerformed;
 
         controls.Menu.Enable();
@@ -122,23 +126,28 @@ public class PlayerSelectionManager : MonoBehaviour
 
         controls.Menu.Navigate.performed -= OnNavigatePerformed;
         controls.Menu.Navigate.canceled -= OnNavigateCanceled;
-        
-        controls.Menu.confirm.performed -= OnConfirmPerformed;
+
+        controls.Menu.Confirm.performed -= OnConfirmPerformed;
         controls.Menu.Cancel.performed -= OnCancelPerformed;
 
         controls.Menu.Disable();
+    }
+
+    private void OnDestroy()
+    {
+        controls?.Dispose();
     }
 
     private void OnJoinPerformed(InputAction.CallbackContext context)
     {
         InputDevice device = context.control.device;
 
-        if(!(device is Gamepad) && !(device is Keyboard))
+        if (!(device is Gamepad) && !(device is Keyboard))
         {
             return;
         }
 
-        if(FindPlayerByDevice(device) >= 0)
+        if (FindPlayerByDevice(device) >= 0)
         {
             return;
         }
@@ -147,7 +156,7 @@ public class PlayerSelectionManager : MonoBehaviour
 
         if (slot < 0)
         {
-            Debug.Log("Ya se han incorporado cuatro jugadores");
+            Debug.Log("Ya se han incorporado cuatro jugadores.");
             return;
         }
 
@@ -158,9 +167,9 @@ public class PlayerSelectionManager : MonoBehaviour
         players[slot].characterIndex = FindFirstAvailableCharacter();
 
         playerPanels[slot].SetActive(true);
-        
+
         RefreshPlayerImage(slot);
-        RefreshStoreSelections();
+        RefreshStoredSelections();
 
         Debug.Log("Jugador " + (slot + 1) + " incorporado con " + device.displayName);
 
@@ -209,7 +218,7 @@ public class PlayerSelectionManager : MonoBehaviour
     {
         int playerIndex = FindPlayerByDevice(context.control.device);
 
-        if(playerIndex >= 0)
+        if (playerIndex >= 0)
         {
             players[playerIndex].lastHorizontalDirection = 0;
         }
@@ -245,11 +254,9 @@ public class PlayerSelectionManager : MonoBehaviour
         {
             players[playerIndex].confirmed = false;
 
-            RefreshStoreSelections();
+            RefreshStoredSelections();
 
-            UpdateStartButton();
-
-            Debug.Log("Hola soy debug de canelPerformed");
+            Debug.Log("Jugador " + (playerIndex + 1) + " canceló la confirmación.");
 
             return;
         }
@@ -257,19 +264,19 @@ public class PlayerSelectionManager : MonoBehaviour
         playerPanels[playerIndex].SetActive(false);
         playerImages[playerIndex].sprite = null;
 
-        Debug.Log("Jugador " + (playerIndex + 1) + " abandonóla selección.");
+        Debug.Log("Jugador " + (playerIndex + 1) + " abandonó la selección.");
 
         players[playerIndex] = new PlayerSlot();
         players[playerIndex].characterIndex = -1;
 
-        RefreshStoreSelections();
+        RefreshStoredSelections();
 
         UpdateStartButton();
     }
 
     private int FindPlayerByDevice(InputDevice device)
     {
-        for(int i = 0; i < players.Length; i++)
+        for (int i = 0; i < players.Length; i++)
         {
             if (players[i].active && players[i].device == device)
             {
@@ -282,7 +289,7 @@ public class PlayerSelectionManager : MonoBehaviour
 
     private int FindFreePlayerSlot()
     {
-        for(int i = 0; i < players.Length; i++)
+        for (int i = 0; i < players.Length; i++)
         {
             if (!players[i].active)
             {
@@ -319,7 +326,7 @@ public class PlayerSelectionManager : MonoBehaviour
 
             if (currentIndex < 0)
             {
-                currentIndex = count -1;
+                currentIndex = count - 1;
             }
             else if (currentIndex >= count)
             {
@@ -350,14 +357,15 @@ public class PlayerSelectionManager : MonoBehaviour
 
     private bool IsCharacterAvailable(int characterIndex, int requestingPlayer)
     {
-        if (characterIndex < 0 || characterIndex >= characterPrefabs.Length || characterIndex >= characterSprites.Length)
+        if (characterIndex < 0 || characterIndex >= characterPrefabs.Length)
         {
             return false;
         }
 
         for (int i = 0; i < players.Length; i++)
         {
-            if (i != requestingPlayer && players[i].active && players[i].confirmed && players[i].characterIndex == characterIndex)
+            if (i != requestingPlayer && players[i].active && players[i].confirmed &&
+                players[i].characterIndex == characterIndex)
             {
                 return false;
             }
@@ -396,7 +404,7 @@ public class PlayerSelectionManager : MonoBehaviour
             return;
         }
 
-        if( characterIndex < 0)
+        if (characterIndex < 0)
         {
             Debug.LogWarning("No hay personajes disponibles.");
             return;
@@ -404,10 +412,10 @@ public class PlayerSelectionManager : MonoBehaviour
 
         players[playerIndex].confirmed = true;
 
-        RefreshStoreSelections();
+        RefreshStoredSelections();
         RefreshOtherPlayerSelections();
 
-        Debug.Log("Jugador " + (playerIndex + 1) + " confrimó el personaje" + characterSprites[characterIndex].name);
+        Debug.Log("Jugador " + (playerIndex + 1) + " confirmó el personaje " + characterSprites[characterIndex].name);
 
         UpdateStartButton();
     }
@@ -431,29 +439,132 @@ public class PlayerSelectionManager : MonoBehaviour
         }
     }
 
-    private void RefreshStoreSelections()
+    private void RefreshStoredSelections()
     {
         SelectedPlayerPrefabs.Clear();
         SelectedPlayerSprites.Clear();
 
         for (int i = 0; i < players.Length; i++)
         {
-            if (!players[i].active || !players[i].confirmed)
+            if (players[i].active && players[i].confirmed)
+            {
+                int characterIndex = players[i].characterIndex;
+
+                if (characterIndex >= 0 && characterIndex < characterPrefabs.Length)
+                {
+                    SelectedPlayerPrefabs.Add(characterPrefabs[characterIndex]);
+
+                    SelectedPlayerSprites.Add(characterSprites[characterIndex]);
+                }
+            }
+        }
+    }
+
+
+    public void OnConfirmSelectionButton()
+    {
+        bool ready = PrepareMatchConfiguration();
+
+        if (!ready)
+        {
+            Debug.LogWarning("No se puede avanzar. Revisa la selección de los jugadores.");
+
+            return;
+        }
+
+        Debug.Log("Selección guardada correctamente. Listos para elegir el mapa.");
+
+        // En el siguiente paso conectaremos aquí la navegación
+        // hacia el menú de selección de mapa.
+    }
+
+
+    public bool PrepareMatchConfiguration()
+    {
+        List<GameObject> selectedPrefabs = new List<GameObject>();
+        List<InputDevice> selectedDevices = new List<InputDevice>();
+        int activePlayers = 0;
+
+        for (int i = 0; i < players.Length; i++)
+        {
+            if (!players[i].active)
             {
                 continue;
             }
 
+            activePlayers++;
+
+            if (!players[i].confirmed)
+            {
+                Debug.Log("El jugador " + (i + 1) + " todavía no ha confirmado su personaje."
+                );
+
+                return false;
+            }
+
             int characterIndex = players[i].characterIndex;
-            SelectedPlayerPrefabs.Add(characterPrefabs[characterIndex]);
-            SelectedPlayerSprites.Add(characterSprites[characterIndex]);
+
+            if (characterIndex < 0 || characterIndex >= characterPrefabs.Length)
+            {
+                Debug.LogWarning("El jugador " + (i + 1) + " no tiene un personaje válido.");
+
+                return false;
+            }
+
+            selectedPrefabs.Add(characterPrefabs[characterIndex]);
+            selectedDevices.Add(players[i].device);
         }
+
+        if (activePlayers < 2 || activePlayers > 4)
+        {
+            Debug.Log("Se necesitan entre 2 y 4 jugadores para continuar.");
+
+            return false;
+        }
+
+        if (!MatchConfiguration.TrySetPlayers(selectedPrefabs)) return false;
+        MatchConfiguration.SetDevices(selectedDevices);
+        return true;
     }
+
 
     private void UpdateStartButton()
     {
-        if (btnIniciar != null)
+        if (btnIniciar == null)
         {
-            btnIniciar.SetActive(ActivePlayerCount > 0 && ConfirmedPlayerCount == ActivePlayerCount);
+            return;
         }
+
+        Button button = btnIniciar.GetComponent<Button>();
+
+        if (button == null)
+        {
+            Debug.LogError("btnIniciar no tiene un componente Button.");
+            return;
+        }
+
+        int activePlayers = 0;
+        int confirmedPlayers = 0;
+        bool allPlayersConfirmed = true;
+
+        for (int i = 0; i < players.Length; i++)
+        {
+            if (players[i].active)
+            {
+                activePlayers++;
+
+                if (players[i].confirmed)
+                {
+                    confirmedPlayers++;
+                }
+                else
+                {
+                    allPlayersConfirmed = false;
+                }
+            }
+        }
+
+        button.interactable = activePlayers >= 2 && confirmedPlayers >= 2 && allPlayersConfirmed;
     }
+
 }
