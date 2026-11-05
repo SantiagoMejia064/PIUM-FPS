@@ -21,6 +21,7 @@ public class ArmasReloadingState : ArmasState
         if (timer <= 0f)
         {
             weapon.currentAmmo = weapon.magazineSize;
+            weapon.NotifyAmmoChanged();
             weapon.ChangeState(new ArmasReadyState(weapon));
 
             Debug.Log("Recarga completada.");

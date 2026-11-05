@@ -1,0 +1,2277 @@
+{
+  "source": "C:/Users/mejia/Downloads/Videojuegos 3D-20261029T004039Z-1-001/Videojuegos 3D",
+  "destination": "D:/proyectos de Unity/PIUM-FPS",
+  "sourceUnchanged": true,
+  "sourceChanged": [],
+  "importedFiles": 524,
+  "imports": [
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR Editor.asmdef",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR Editor.asmdef"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ExpressionParser.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ExpressionParser.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_MaterialInspector.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_MaterialInspector.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ShaderImporter.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ShaderImporter.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ShaderPostProcessor.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_ShaderPostProcessor.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_Styles.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Editor\\CFXR_Styles.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura rays hdr ab nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura rays hdr ab nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura rays.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura rays.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura runic hdr ab nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura runic hdr ab nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura runic.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr aura runic.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood splash.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr blood.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble 2 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble 2 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble 2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble 2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr bubble.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card club ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card club ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card club.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card club.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card diamond.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card heart ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card heart ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card heart.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card heart.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card spade ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card spade ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card spade.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr card spade.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr cloud blur add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr cloud blur add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr cloud blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr cloud blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 ab lit emission.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 ab lit emission.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 ab lit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 ab lit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3 normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris 3x3.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3 ab hdr.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3 ab hdr.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris flat unlit 3x3.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2 ab lit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2 ab lit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2 normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2 normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris ice 2x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris unlit 3x3 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris unlit 3x3 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris unlit 3x3.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris unlit 3x3.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3 normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3 normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood 3x3.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood unlit 3x3 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood unlit 3x3 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood unlit 3x3.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr debris wood unlit 3x3.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arc anim x4.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arc anim x4.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arc anim x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arc anim x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs fade x4 hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs fade x4 hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs fade x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs fade x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs x4 hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs x4 hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric arcs x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim 4x2 hdr.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim 4x2 hdr.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim 4x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim 4x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2 mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2 mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric small anim2 7x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric spark.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric spark.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric sparks ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric sparks ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric sparks hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr electric sparks hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ember blur hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ember blur hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ember blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ember blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion second color map.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion second color map.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion smoke alpha.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion smoke alpha.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion smoke dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr explosion smoke dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire blur fade hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire blur fade hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle blur hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle blur hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle crisp hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle crisp hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle crisp.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle crisp.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn blurred hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn blurred hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn blurred.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn blurred.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle drawn.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle plain hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle plain hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle plain.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire circle plain.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire crisp fade hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire crisp fade hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire crisp fade nosp hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire crisp fade nosp hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire edge.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire full blurred fade hdr add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire full blurred fade hdr add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire plain fade hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire plain fade hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim blurred hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim blurred hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim blurred.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim blurred.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire small anim.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire stepped fade hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fire stepped fade hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur mid fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur mid fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur mid hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur mid hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur stable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur stable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur stable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur stable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur unstable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur unstable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur unstable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur unstable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle unstable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle unstable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme candle.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp mid fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp mid fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp mid hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp mid hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp stable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp stable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp stable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp stable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp unstable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp unstable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp unstable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp unstable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme crisp.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme full blurred.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme full blurred.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain mid fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain mid fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain mid hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain mid hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain stable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain stable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain stable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain stable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain unstable fine hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain unstable fine hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain unstable hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain unstable hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme plain.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme stepped.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flamme stepped.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flare add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flare add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flare.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr flare.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fly anim x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fly anim x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fly anim.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr fly anim.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ghost trail add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ghost trail add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ghost trail.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ghost trail.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break parts ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break parts ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break parts.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart break parts.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr heart.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hidden.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hidden.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle 2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle 2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle diamond dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle diamond dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr hit triangle.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a ab lit normal.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a ab lit normal.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave a.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b ab lit normal.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b ab lit normal.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr leave b.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr line loop electric.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr magic star.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr no texture hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr no texture hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr noise clouds big.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr noise clouds big.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin big.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin big.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin mid.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin mid.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin smudge.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr perlin smudge.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal pink x4 ab lit normal.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal pink x4 ab lit normal.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal pink x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr petal pink x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow crisp ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow crisp ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft ground nosp add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft ground nosp add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft hdr p4 add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft hdr p4 add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert add nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert add nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft invert hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft nosp add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft nosp add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p4 add nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p4 add nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p4 add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p4 add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p8 add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc glow soft p8 add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring electric hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring electric hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring ice hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring ice hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space partial ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring local space partial ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring water ripple local space ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring water ripple local space ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring water ripple local space arc ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr proc ring water ripple local space arc ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve soft ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve soft ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr puddle.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring arc.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring arc.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring electric.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring electric.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ice.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ice.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ripple arc dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ripple arc dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ripple dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring ripple dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring spikes revert hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring spikes revert hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring spikes revert.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ring spikes revert.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion debug.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion debug.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion debug.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion debug.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion perlin.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion perlin.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion perlin.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion perlin.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion ring.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion sphere.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion sphere.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion sphere.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr screen distortion sphere.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2 dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2 dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2 dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2 dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull 2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve alt.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve alt.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull distort hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull distort hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull outer outline ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull outer outline ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull outer outline.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull outer outline.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr skull.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley angry ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley angry ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley angry.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley angry.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley frown ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley frown ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley frown.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley frown.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley happy ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley happy ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley happy.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley happy.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley smile ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley smile ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley smile.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smiley smile.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud corner.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab blurred.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab blurred.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit crisp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit crisp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit normal.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit normal.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual bright shadow.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual bright shadow.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual mid shadow.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual mid shadow.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft individual.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab lit soft.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 blurred.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 blurred.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 crisp dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 crisp dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 mult blurred.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 mult blurred.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 normal.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 normal.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color underlit ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color underlit ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 second color.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 white.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4 white.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr smoke cloud x4.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes half impact gradient.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes half impact gradient.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes half impact hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes half impact hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve invert ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve invert ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr spikes impact.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star blurred add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star blurred add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star blurred.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star blurred.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr star.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr steam blur dissolve hdr add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr steam blur dissolve hdr add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch fire crisp fade hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch fire crisp fade hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch flamme crisp dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch flamme crisp dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch flamme crisp.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch flamme crisp.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch inv spike fade.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur ab nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur ab nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rain blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch ray blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch rectangle ray.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes blur x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes blur x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes dissolve smooth x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes dissolve smooth x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes dissolve x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes dissolve x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes x2 mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes x2 mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes x2.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch sipkes x2.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull dissolve ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull dissolve ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch skull.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc dissolve.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc dissolve.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke arc.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke fume blur ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke fume blur ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke fume.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch smoke fume.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spike fade add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spike fade add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spike fade.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spike fade.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spikes smooth x2 hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spikes smooth x2 hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spikes x2 hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch spikes x2 hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch steam blur distort.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch steam blur distort.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait blur.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait hdr ab nosp.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait hdr ab nosp.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch trait.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle fade ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle fade ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle fade.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle fade.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth nosp ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth nosp ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth nosp add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle smooth nosp add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle to diamond ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle to diamond ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle to diamond add.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr stretch triangle to diamond add.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail bubbles hit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail bubbles hit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail bubbles.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail bubbles.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail flames hit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail flames hit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail flames.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail flames.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice hit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice hit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice thin.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice thin.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail ice.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail light.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail light.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask light.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask light.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask lines.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask lines.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask plain.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail mask plain.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise bubbles.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise bubbles.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise ice.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise ice.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise tech.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail noise tech.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail plain.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail plain.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail slash.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail slash.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech hit.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech hit.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech thin.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech thin.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr sword trail tech.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr uv distortion fire perlin.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr uv distortion fire perlin.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr uv distortion fire smudge.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr uv distortion fire smudge.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water drop blur anim.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water foam ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water foam ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water foam.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water foam.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch nosp ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch nosp ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch nosp hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch nosp hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash hollow stretch.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch nosp ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch nosp ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch nosp hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch nosp hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr water small splash stretch.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke bright hdr ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke bright hdr ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke bright.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke bright.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke first color.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke first color.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke glow ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke glow ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke glow.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke glow.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke second color ab.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke second color ab.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke second color.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke second color.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr electric_arc_circle.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr electric_arc_circle.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr electric_barrier.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr electric_barrier.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh disk.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh disk.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh donut.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh donut.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh foam.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh foam.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh leave.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh leave.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh ring.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh ring.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star4.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star4.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star6.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star6.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star8.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh star8.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh sword_slashes.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr mesh sword_slashes.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr particle_electric_arc.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr particle_electric_arc.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr particle_electric_arc_2.fbx",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr particle_electric_arc_2.fbx"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh half.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh half.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh local space smoother.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh local space smoother.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh local space.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh local space.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Meshes\\cfxr ring mesh.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr font AmazGoDaBold.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr font AmazGoDaBold.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr font WashYourHand.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr font WashYourHand.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr particle font.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr particle font.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr ParticleFont AmazGoDaBold.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr ParticleFont AmazGoDaBold.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr ParticleFont WashYourHand.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Misc\\cfxr ParticleFont WashYourHand.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR Runtime.asmdef",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR Runtime.asmdef"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_Effect.CameraShake.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_Effect.CameraShake.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_Effect.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_Effect.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_EmissionBySurface.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_EmissionBySurface.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_ParticleText.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_ParticleText.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_ParticleTextFontAsset.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Scripts\\CFXR_ParticleTextFontAsset.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Distortion.cfxrshader",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Distortion.cfxrshader"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Glow.cfxrshader",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Glow.cfxrshader"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Procedural Ring.cfxrshader",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Procedural Ring.cfxrshader"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Ubershader.cfxrshader",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR Particle Ubershader.cfxrshader"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR.cginc",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR.cginc"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_PASSES.cginc",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_PASSES.cginc"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_SETTINGS.cginc",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_SETTINGS.cginc"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_URP.cginc",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Shaders\\CFXR_URP.cginc"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 Skull Head Alt.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 Skull Head Alt.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 Souls Escape.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 Souls Escape.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 WW Enemy Explosion.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 WW Enemy Explosion.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR Electrified 3.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR Electrified 3.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR2 Sparks Rain.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR2 Sparks Rain.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR3 Hit Electric C (Air).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Electric\\CFXR3 Hit Electric C (Air).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR Explosion 1.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR Explosion 1.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR Explosion Smoke 2 Solo (HDR).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR Explosion Smoke 2 Solo (HDR).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR2 WW Explosion.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR2 WW Explosion.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR3 Fire Explosion B.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR3 Fire Explosion B.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR4 Firework 1 Cyan-Purple (HDR).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR4 Firework 1 Cyan-Purple (HDR).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR4 Firework HDR Shoot Single (Random Color).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Explosions\\CFXR4 Firework HDR Shoot Single (Random Color).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR Fire Breath.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR Fire Breath.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR Fire.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR Fire.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR2 Firewall A.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR2 Firewall A.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR3 Hit Fire B (Air).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR3 Hit Fire B (Air).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR4 Sun.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Fire\\CFXR4 Sun.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Ice\\CFXR3 Hit Ice B (Air).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Ice\\CFXR3 Hit Ice B (Air).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Hit A (Red).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Hit A (Red).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Hit D 3D (Yellow).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Hit D 3D (Yellow).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Impact Glowing HDR (Blue).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR Impact Glowing HDR (Blue).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR2 Ground Hit.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Impacts\\CFXR2 Ground Hit.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Light\\CFXR3 Hit Light B (Air).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Light\\CFXR3 Hit Light B (Air).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Light\\CFXR3 LightGlow A (Loop).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Light\\CFXR3 LightGlow A (Loop).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR Water Ripples.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR Water Ripples.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR Water Splash (Smaller).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR Water Splash (Smaller).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR2 Blood (Directional).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR2 Blood (Directional).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR2 Blood Shape Splash.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR2 Blood Shape Splash.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR4 Bubbles Breath Underwater Loop.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Liquids\\CFXR4 Bubbles Breath Underwater Loop.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR3 Magic Aura A (Runic).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR3 Magic Aura A (Runic).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR4 Bouncing Glows Bubble (Blue Purple).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR4 Bouncing Glows Bubble (Blue Purple).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR4 Falling Stars.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Magic Misc\\CFXR4 Falling Stars.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Flash.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Flash.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Magic Poof.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Magic Poof.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Smoke Source 3D.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR Smoke Source 3D.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Broken Heart.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Broken Heart.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Cartoon Fight (Loop).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Cartoon Fight (Loop).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Poison Cloud.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Poison Cloud.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Shiny Item (Loop).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR2 Shiny Item (Loop).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Ambient Glows.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Ambient Glows.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Hit Misc A.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Hit Misc A.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Hit Misc F Smoke.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Misc\\CFXR3 Hit Misc F Smoke.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR3 Hit Leaves A (Lit).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR3 Hit Leaves A (Lit).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR3 Shield Leaves A (Lit).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR3 Shield Leaves A (Lit).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Rain Falling.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Rain Falling.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Rain Splashes.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Rain Splashes.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Wind Trails.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Nature\\CFXR4 Wind Trails.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Hit FIRE (Cross).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Hit FIRE (Cross).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Trail FIRE (360 Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Trail FIRE (360 Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Fire\\CFXR4 Sword Trail FIRE (360 Thin Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Hit ICE (Cross).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Hit ICE (Cross).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Trail ICE (360 Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Trail ICE (360 Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Trail ICE (360 Thin Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Ice\\CFXR4 Sword Trail ICE (360 Thin Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Hit PLAIN (Cross).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Hit PLAIN (Cross).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Trail PLAIN (360 Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Trail PLAIN (360 Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Sword Trails\\Plain\\CFXR4 Sword Trail PLAIN (360 Thin Spiral).prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOING_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOING_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOOM_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOOM_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _POW_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _POW_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _SLASH_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _SLASH_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _CURSED_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _CURSED_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _WHAM_ 3.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _WHAM_ 3.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR3 _WOW_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR3 _WOW_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _FROZEN_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _FROZEN_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _POISONED_.prefab",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _POISONED_.prefab"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\_Make your own text effect.txt",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\_Make your own text effect.txt"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXRF Demo.unity",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXRF Demo.unity"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Bloom Post Process.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Bloom Post Process.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground URP.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground URP.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground.mat",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground.mat"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Ground.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Tonemapping Post Process.asset",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo Tonemapping Post Process.asset"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo.asmdef",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR Demo.asmdef"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo_Rotate.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo_Rotate.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo_Translate.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\CFXR_Demo_Translate.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Bloom.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Bloom.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\BloomEditor.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\BloomEditor.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\BloomGraphDrawer.cs",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\BloomGraphDrawer.cs"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\KinoBloom.Editor.asmdef",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Editor\\KinoBloom.Editor.asmdef"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Kino Bloom License.txt",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Kino Bloom License.txt"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\KinoBloom.Runtime.asmdef",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\KinoBloom.Runtime.asmdef"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Shader\\Bloom.cginc",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Shader\\Bloom.cginc"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Shader\\Bloom.shader",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\Kino Bloom\\Shader\\Bloom.shader"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Arrow R.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Arrow R.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Arrow.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Arrow.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Bloom H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Bloom H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Bloom.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Bloom.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Camera H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Camera H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Camera.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Camera.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn CameraShake H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn CameraShake H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn CameraShake.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn CameraShake.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Ground H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Ground H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Ground.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Ground.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Lights H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Lights H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Lights.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn Lights.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn SlowMo H.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn SlowMo H.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn SlowMo.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXR Demo Btn SlowMo.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXRF Demo Logo.png",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Demo Assets\\UI\\CFXRF Demo Logo.png"
+    },
+    {
+      "source": "Assets\\JMO Assets\\Cartoon FX Remaster\\Readme Cartoon FX Remaster FREE.html",
+      "target": "Assets\\JMO Assets\\Cartoon FX Remaster\\Readme Cartoon FX Remaster FREE.html"
+    },
+    {
+      "source": "Assets\\Polygon Battle Royal\\Materials\\FX\\PolygonBattleRoyale_FX_Dirt.mat",
+      "target": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Materials\\FX\\PolygonBattleRoyale_FX_Dirt.mat"
+    },
+    {
+      "source": "Assets\\Polygon Battle Royal\\Materials\\FX\\PolygonBattleRoyale_FX_Rain.mat",
+      "target": "Assets\\Polygon Battle Royal\\Polygon Battle Royal\\Materials\\FX\\PolygonBattleRoyale_FX_Rain.mat"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 1.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 1.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 2.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 2.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 3.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Asalto\\Asalto 3.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Corto Alcance\\Mini Uzi.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Corto Alcance\\Mini Uzi.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Corto Alcance\\P90.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Corto Alcance\\P90.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Lanzar\\Granada.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Lanzar\\Granada.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Lanzar\\Grenada Humo.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Lanzar\\Grenada Humo.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Pistolas\\Pistola Especial.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Pistolas\\Pistola Especial.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Pistolas\\Pistola.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Pistolas\\Pistola.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Pistolas\\Revolver Largo.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Pistolas\\Revolver Largo.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Pistolas\\Revolver.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Pistolas\\Revolver.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Shotgun\\Shotgun.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Shotgun\\Shotgun.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Sniper\\Sniper 1.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Sniper\\Sniper 1.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Armas\\Sniper\\Sniper 2.prefab",
+      "target": "Assets\\Prefabs\\Armas\\Sniper\\Sniper 2.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\FX\\Pistola Flash.prefab",
+      "target": "Assets\\Prefabs\\FX\\Pistola Flash.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Players\\Prefab1.prefab",
+      "target": "Assets\\Prefabs\\Players\\Prefab1.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Players\\Prefab2.prefab",
+      "target": "Assets\\Prefabs\\Players\\Prefab2.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Players\\Prefab3.prefab",
+      "target": "Assets\\Prefabs\\Players\\Prefab3.prefab"
+    },
+    {
+      "source": "Assets\\Prefabs\\Players\\Prefab4.prefab",
+      "target": "Assets\\Prefabs\\Players\\Prefab4.prefab"
+    },
+    {
+      "source": "Assets\\Scenes\\Arena1.unity",
+      "target": "Assets\\Scenes\\Arena1.unity"
+    },
+    {
+      "source": "Assets\\Scenes\\Arena2.unity",
+      "target": "Assets\\Scenes\\Arena2.unity"
+    },
+    {
+      "source": "Assets\\Scenes\\MainMenu.unity",
+      "target": "Assets\\Scenes\\Imported\\MainMenu_Profesor.unity"
+    },
+    {
+      "source": "Assets\\Scriptable Objects\\Armas\\Pistola.asset",
+      "target": "Assets\\Scriptable Objects\\Armas\\Pistola.asset"
+    },
+    {
+      "source": "Assets\\Scripts\\Armas\\Armas.cs",
+      "target": "Assets\\Scripts\\Armas\\Armas.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Armas\\ArmasController.cs",
+      "target": "Assets\\Scripts\\Armas\\ArmasController.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Armas\\ArmasInput.cs",
+      "target": "Assets\\Scripts\\Armas\\ArmasInput.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Armas\\Datos\\DatosArmas.cs",
+      "target": "Assets\\Scripts\\Armas\\Datos\\DatosArmas.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\HealthObserver.cs",
+      "target": "Assets\\Scripts\\Core\\HealthObserver.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\MatchManager.cs",
+      "target": "Assets\\Scripts\\Core\\MatchManager.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\Object Pool\\ObjectPool.cs",
+      "target": "Assets\\Scripts\\Core\\Object Pool\\ObjectPool.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\Object Pool\\ObjectPoolManager.cs",
+      "target": "Assets\\Scripts\\Core\\Object Pool\\ObjectPoolManager.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\Object Pool\\PooledObject.cs",
+      "target": "Assets\\Scripts\\Core\\Object Pool\\PooledObject.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\Object Pool\\PooledParticleEffect.cs",
+      "target": "Assets\\Scripts\\Core\\Object Pool\\PooledParticleEffect.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Core\\PlayerSpawner.cs",
+      "target": "Assets\\Scripts\\Core\\PlayerSpawner.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+      "target": "Assets\\Scripts\\Player\\PlayerHealth.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Player\\PlayerRespawn.cs",
+      "target": "Assets\\Scripts\\Player\\PlayerRespawn.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\Player\\PlayerStats.cs",
+      "target": "Assets\\Scripts\\Player\\PlayerStats.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\UI\\HUD\\PlayerHUD.cs",
+      "target": "Assets\\Scripts\\UI\\HUD\\PlayerHUD.cs"
+    },
+    {
+      "source": "Assets\\Scripts\\UI\\HUD\\Resultados.cs",
+      "target": "Assets\\Scripts\\UI\\HUD\\Resultados.cs"
+    }
+  ],
+  "sourceDuplicates": [
+    {
+      "guid": "d9d25a369ce11644386b2e9754650511",
+      "paths": [
+        "Assets\\Prefabs\\Armas\\Pistola.prefab",
+        "Assets\\Prefabs\\Armas\\Pistolas\\Pistola.prefab"
+      ]
+    },
+    {
+      "guid": "af836c7db6cf3a34b9cc62ad9d17da87",
+      "paths": [
+        "Assets\\Scripts\\UI\\MapSelectionManager.cs",
+        "Assets\\Scripts\\UI\\Menu\\MapSelectionManager.cs"
+      ]
+    },
+    {
+      "guid": "f8b9896ae3d0687449c4682b439d85de",
+      "paths": [
+        "Assets\\Scripts\\UI\\Menu\\MenuNavigation.cs",
+        "Assets\\Scripts\\UI\\MenuNavigation.cs"
+      ]
+    },
+    {
+      "guid": "1239c8bbd9b05cf42b710fd5aa1a12ec",
+      "paths": [
+        "Assets\\Scripts\\UI\\Menu\\PlayerSelectionManager.cs",
+        "Assets\\Scripts\\UI\\PlayerSelectionManager.cs"
+      ]
+    },
+    {
+      "guid": "eaa11c300d137ff4a815022957a9d619",
+      "paths": [
+        "Assets\\Scripts\\UI\\Menu\\SummaryUI.cs",
+        "Assets\\Scripts\\UI\\SummaryUI.cs"
+      ]
+    }
+  ],
+  "staleClassFixes": [
+    {
+      "file": "Assets\\Scenes\\Arena1.unity",
+      "old": "MatchResultsUI",
+      "cls": "Resultados"
+    },
+    {
+      "file": "Assets\\Scenes\\Arena2.unity",
+      "old": "MatchResultsUI",
+      "cls": "Resultados"
+    },
+    {
+      "file": "Assets\\Scriptable Objects\\Armas\\Pistola.asset",
+      "old": "WeaponData",
+      "cls": "DatosArmas"
+    }
+  ],
+  "duplicateDestinationGuids": [],
+  "protectedHashes": {
+    "Assets/Scenes/MainMenu.unity": "e9007528992b1b572b026a0d3804a03d3700813d0c553431372a9695c5338a0d",
+    "Assets/Scenes/MainMenu.unity.meta": "3c92db93d252b5aa7065c66ba36a98c754aa65715a15f21f1028168140d2b9c8",
+    "Assets/Settings/MainMenu_PostProcesado.asset": "b88c6c024714f0a2b91a6102da244626d93505cbe0b0fcb30646cb844534dcb0",
+    "Assets/Settings/MainMenu_PostProcesado.asset.meta": "e50b8a8dc8a5dfa28f059d2785231364eb5c4b406d5d460a222e4633c7356364",
+    "ProjectSettings/ProjectVersion.txt": "3a627dd4538b9865c66a7cd4c60f3d25ce8b3ca93ff1286416cae0e29f143146",
+    "ProjectSettings/EditorBuildSettings.asset": "c7600ea4c562e49d7e2fa8e04f505d3206f6a99163f764067f701c05b982065d",
+    "ProjectSettings/TagManager.asset": "60ad46001b68938b795e8904937d07599914ef19fad969fd9839ed0f522620df",
+    "Packages/manifest.json": "587db669173f390bc233d9e42ddb351f033a1e74251e01850e4ffd9f6b285fd5",
+    "Packages/packages-lock.json": "27ab9790c38aa77fe68f5aab8d856bcc018095274e1f24fe8fa298c8020bd374",
+    "Assets/PlayerSelectionManager.cs": "c6e82dde6750c53bc91e6a4fed0d5a9132eec89e6fb3006a3eafbb8e4b848f40",
+    "Assets/Scripts/Core/MatchConfiguration.cs": "e6c5d6864aefafd6bcea26e99a470e68c38ad1addb9cf7b3433f6e9a758f4e00",
+    "Assets/Scripts/Core/SplitScreenConfiguration.cs": "3adf1a50468fc548648b0e409323134d31db6aab6b378a11041022e52b1627a6"
+  },
+  "protectedFilesChanged": [],
+  "coreValidation": {
+    "assets": 130,
+    "missingReferences": [],
+    "missingScripts": [],
+    "missingLocalReferences": [],
+    "classMismatch": []
+  },
+  "vendorOptionalMissingReferences": [
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr cloud blur add.mat",
+      "guid": "c934e911e8386904398e71d6d79bcb84",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Assets\\Graphics\\cfxr ww smoke glow ab.mat",
+      "guid": "1fb08705db49c61459c2beb1c436c5a2",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Eerie\\CFXR2 Souls Escape.prefab",
+      "guid": "645a11d137d568d4bb4e5e97f259a333",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOING_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _BOOM_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _POW_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR _SLASH_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _CURSED_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR2 _WHAM_ 3.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR3 _WOW_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _FROZEN_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXR Prefabs\\Texts\\CFXR4 _POISONED_.prefab",
+      "guid": "92b6ff7c5fd1d854fa9c6920e16c829e",
+      "sourceAvailable": false
+    },
+    {
+      "file": "Assets\\JMO Assets\\Cartoon FX Remaster\\CFXRF Demo.unity",
+      "guid": "47b1895b72f16dd41a5b18c2ec6b3554",
+      "sourceAvailable": false
+    }
+  ],
+  "compilation": {
+    "assemblies": [
+      "CFXRRuntime",
+      "CFXREditor",
+      "KinoBloom.Runtime",
+      "KinoBloom.Editor",
+      "CFXRDemo",
+      "Assembly-CSharp",
+      "Assembly-CSharp-Editor"
+    ],
+    "result": "passed; compiler from Unity 6000.3.11f1, exit 0 for every assembly; USG0001 informational outside Unity pipeline"
+  },
+  "unityImportAndPlayValidation": "Not run; validate import/shaders and gameplay in Unity 6000.3.11f1",
+  "inheritedIncompleteWeapons": [
+    {
+      "file": "Assets\\Prefabs\\Armas\\Lanzar\\Granada.prefab",
+      "firePoint": "0"
+    },
+    {
+      "file": "Assets\\Prefabs\\Armas\\Lanzar\\Grenada Humo.prefab",
+      "firePoint": "0"
+    },
+    {
+      "file": "Assets\\Prefabs\\Armas\\Pistolas\\Pistola Especial.prefab",
+      "firePoint": "0"
+    }
+  ],
+  "sourceWeaponDataUsage": "DatosArmas registers VFX pools; numeric weapon values remain configured in Armas prefab components, matching teacher implementation."
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94c2de52ed55a2468d6030bed35598d, type: 3}
+  m_Name: Pistola
+  m_EditorClassIdentifier: Assembly-CSharp::DatosArmas
+  weaponName: Pistola
+  weaponPrefab: {fileID: 3733520491917002858, guid: d9d25a369ce11644386b2e9754650511, type: 3}
+  muzzleFlashPrefab: {fileID: 8892598443996784316, guid: 0ffdb93ef5a7ff247a23f52f59943c48, type: 3}
+  muzzleFlashPoolName: PistolFlash
+  impactPrefab: {fileID: 0}
+  impactPoolName: 
+  projectilePrefab: {fileID: 0}
+  projectilePoolName: 
+  magazineSize: 12
+  fireRate: 1
+  reloadTime: 3
+  range: 25
+  damage: 15

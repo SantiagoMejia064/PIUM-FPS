@@ -9,10 +9,20 @@ public class PlayerSpawner : MonoBehaviour
     public Transform[] spawnPoints;
 
     private SplitScreenConfiguration splitScreenManager;
+    private MatchManager matchManager;
+
+    private int nextRespawnIndex;
 
     private void Start()
     {
         splitScreenManager = GetComponent<SplitScreenConfiguration>();
+        matchManager = GetComponent<MatchManager>();
+
+        if (matchManager == null)
+        {
+            Debug.LogError("No se encuentra MatchManager en el objeto PlayerSpawner.");
+            return;
+        }
 
         SpawnPlayers();
     }
@@ -22,7 +32,6 @@ public class PlayerSpawner : MonoBehaviour
         if (!MatchConfiguration.IsConfigured)
         {
             Debug.LogError("No existe una configuracion valida de partida.");
-
             return;
         }
 
@@ -31,27 +40,23 @@ public class PlayerSpawner : MonoBehaviour
         if (playerCount < 1 || playerCount > 4)
         {
             Debug.LogError("La cantidad de jugadores debe estar entre 1 y 4.");
-
             return;
         }
 
         if (spawnPoints == null || spawnPoints.Length < playerCount)
         {
             Debug.LogError("No hay suficientes puntos de aparicion.");
-
             return;
         }
 
         for (int i = 0; i < playerCount; i++)
         {
             GameObject playerPrefab = MatchConfiguration.SelectedPlayerPrefabs[i];
-
             Transform spawnPoint = spawnPoints[i];
 
             if (playerPrefab == null || spawnPoint == null)
             {
-                Debug.LogError("Falta el prefab o el punto de aparicion del jugador " +(i + 1));
-
+                Debug.LogError("Falta el prefab o el punto de aparicion del jugador " + (i + 1));
                 return;
             }
 
@@ -73,25 +78,68 @@ public class PlayerSpawner : MonoBehaviour
 
             player.name = "Player" + (i + 1);
 
+            PlayerRespawn playerRespawn = player.GetComponent<PlayerRespawn>();
+
+            if (playerRespawn != null)
+            {
+                playerRespawn.SetSpawner(this);
+            }
+            else
+            {
+                Debug.LogError("El jugador " + (i + 1) + " no tiene PlayerRespawn.");
+            }
+
+            PlayerStats playerStats = player.GetComponent<PlayerStats>();
+
+            if (playerStats != null)
+            {
+                matchManager.RegisterPlayer(playerStats);
+            }
+            else
+            {
+                Debug.LogError("El jugador " + (i + 1) + " no tiene PlayerStats.");
+            }
+
             Camera playerCamera = player.GetComponentInChildren<Camera>(true);
 
             if (playerCamera == null)
             {
                 Debug.LogError("El prefab del jugador " + (i + 1) + " no contiene una camara.");
-
                 return;
             }
 
             AudioListener[] listeners = player.GetComponentsInChildren<AudioListener>(true);
 
             for (int j = 0; j < listeners.Length; j++)
+            {
                 listeners[j].enabled = i == 0 && j == 0;
+            }
 
             input.camera = playerCamera;
-
             splitScreenManager.RegisterCamera(playerCamera);
 
-            Debug.Log("Jugador " + (i + 1) + " creado. Camara registrada. AudioListener: " + (i == 0 ? "habilitado" : "deshabilitado"));
+            Debug.Log("Jugador " + (i + 1) + " creado y registrado en la partida.");
         }
+
+        nextRespawnIndex = playerCount % spawnPoints.Length;
+    }
+
+    public Transform GetNextSpawnPoint()
+    {
+        if (spawnPoints == null || spawnPoints.Length == 0)
+        {
+            return null;
+        }
+
+        Transform spawnPoint = spawnPoints[nextRespawnIndex];
+
+        nextRespawnIndex++;
+
+        if (nextRespawnIndex >= spawnPoints.Length)
+        {
+            nextRespawnIndex = 0;
+        }
+
+        return spawnPoint;
     }
 }
