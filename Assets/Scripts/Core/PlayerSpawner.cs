@@ -7,6 +7,7 @@ public class PlayerSpawner : MonoBehaviour
 {
     [Header("Puntos de aparicion")]
     public Transform[] spawnPoints;
+    [SerializeField] private GameObject scenePlayer;
 
     private SplitScreenConfiguration splitScreenManager;
     private MatchManager matchManager;
@@ -24,10 +25,23 @@ public class PlayerSpawner : MonoBehaviour
             return;
         }
 
-        SpawnPlayers();
+        PlayerInput sceneInput = scenePlayer != null ? scenePlayer.GetComponent<PlayerInput>() : null;
+        if (scenePlayer != null && sceneInput == null)
+        {
+            Debug.LogError("El jugador colocado en la arena no tiene PlayerInput.");
+            return;
+        }
+
+        if (!MatchConfiguration.IsConfigured && sceneInput != null)
+        {
+            RegisterPlayer(sceneInput, 0);
+            return;
+        }
+
+        SpawnPlayers(sceneInput);
     }
 
-    private void SpawnPlayers()
+    private void SpawnPlayers(PlayerInput sceneInput)
     {
         if (!MatchConfiguration.IsConfigured)
         {
@@ -70,58 +84,73 @@ public class PlayerSpawner : MonoBehaviour
             InputDevice device = MatchConfiguration.SelectedDevices[i];
             InputDevice[] devices = device is Keyboard && Mouse.current != null
                 ? new InputDevice[] { device, Mouse.current } : new InputDevice[] { device };
-            PlayerInput input = PlayerInput.Instantiate(playerPrefab, i,
-                device is Keyboard ? "Keyboard" : "Gamepad", -1, devices);
+            string controlScheme = device is Keyboard ? "Keyboard" : "Gamepad";
+            PlayerInput input;
+            if (i == 0 && sceneInput != null)
+            {
+                input = sceneInput;
+                input.SwitchCurrentControlScheme(controlScheme, devices);
+            }
+            else
+            {
+                input = PlayerInput.Instantiate(playerPrefab, i, controlScheme, -1, devices);
+            }
+
             input.neverAutoSwitchControlSchemes = true;
-            GameObject player = input.gameObject;
-            player.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
+            input.transform.SetPositionAndRotation(spawnPoint.position, spawnPoint.rotation);
 
-            player.name = "Player" + (i + 1);
-
-            PlayerRespawn playerRespawn = player.GetComponent<PlayerRespawn>();
-
-            if (playerRespawn != null)
-            {
-                playerRespawn.SetSpawner(this);
-            }
-            else
-            {
-                Debug.LogError("El jugador " + (i + 1) + " no tiene PlayerRespawn.");
-            }
-
-            PlayerStats playerStats = player.GetComponent<PlayerStats>();
-
-            if (playerStats != null)
-            {
-                matchManager.RegisterPlayer(playerStats);
-            }
-            else
-            {
-                Debug.LogError("El jugador " + (i + 1) + " no tiene PlayerStats.");
-            }
-
-            Camera playerCamera = player.GetComponentInChildren<Camera>(true);
-
-            if (playerCamera == null)
-            {
-                Debug.LogError("El prefab del jugador " + (i + 1) + " no contiene una camara.");
-                return;
-            }
-
-            AudioListener[] listeners = player.GetComponentsInChildren<AudioListener>(true);
-
-            for (int j = 0; j < listeners.Length; j++)
-            {
-                listeners[j].enabled = i == 0 && j == 0;
-            }
-
-            input.camera = playerCamera;
-            splitScreenManager.RegisterCamera(playerCamera);
-
-            Debug.Log("Jugador " + (i + 1) + " creado y registrado en la partida.");
+            RegisterPlayer(input, i);
         }
 
         nextRespawnIndex = playerCount % spawnPoints.Length;
+    }
+
+    private void RegisterPlayer(PlayerInput input, int index)
+    {
+        GameObject player = input.gameObject;
+        player.name = "Player" + (index + 1);
+
+        PlayerRespawn playerRespawn = player.GetComponent<PlayerRespawn>();
+
+        if (playerRespawn != null)
+        {
+            playerRespawn.SetSpawner(this);
+        }
+        else
+        {
+            Debug.LogError("El jugador " + (index + 1) + " no tiene PlayerRespawn.");
+        }
+
+        PlayerStats playerStats = player.GetComponent<PlayerStats>();
+
+        if (playerStats != null)
+        {
+            matchManager.RegisterPlayer(playerStats);
+        }
+        else
+        {
+            Debug.LogError("El jugador " + (index + 1) + " no tiene PlayerStats.");
+        }
+
+        Camera playerCamera = input.camera != null ? input.camera : player.GetComponentInChildren<Camera>(true);
+
+        if (playerCamera == null)
+        {
+            Debug.LogError("El prefab del jugador " + (index + 1) + " no contiene una camara.");
+            return;
+        }
+
+        AudioListener[] listeners = player.GetComponentsInChildren<AudioListener>(true);
+
+        for (int j = 0; j < listeners.Length; j++)
+        {
+            listeners[j].enabled = index == 0 && j == 0;
+        }
+
+        input.camera = playerCamera;
+        splitScreenManager.RegisterCamera(playerCamera);
+
+        Debug.Log("Jugador " + (index + 1) + " creado y registrado en la partida.");
     }
 
     public Transform GetNextSpawnPoint()

@@ -17,9 +17,14 @@ public class PlayerMovement : MonoBehaviour
     public float minCameraPitch = -35f;
     public float maxCameraPitch = 70f;
 
+    [SerializeField] private Animator movementAnimator;
+
     [Header("Salto y gravedad")]
     public float jumpHeight = 1.5f;
     public float gravity = -20f;
+
+    private static readonly int Horizontal = Animator.StringToHash("Horizontal");
+    private static readonly int Vertical = Animator.StringToHash("Vertical");
 
     private CharacterController characterController;
     private PlayerInput playerInput;
@@ -124,6 +129,12 @@ public class PlayerMovement : MonoBehaviour
     private void MovePlayer()
     {
         Vector2 moveInput = moveAction.ReadValue<Vector2>();
+        if (movementAnimator != null)
+        {
+            movementAnimator.SetFloat(Horizontal, moveInput.x);
+            movementAnimator.SetFloat(Vertical, moveInput.y);
+        }
+
         bool jumpPressed = jumpAction.WasPressedThisFrame();
         bool sprinting = sprintAction.IsPressed();
 
