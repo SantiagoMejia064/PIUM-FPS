@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
     private CharacterController characterController;
     private PlayerInput playerInput;
+    private PlayerBigJump bigJump;
     private Transform playerCamera;
 
     private InputAction moveAction;
@@ -42,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         playerInput = GetComponent<PlayerInput>();
+        bigJump = GetComponent<PlayerBigJump>();
 
         Camera[] playerCameras = GetComponentsInChildren<Camera>(true);
 
@@ -174,7 +176,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (jumpPressed && characterController.isGrounded)
         {
-            verticalVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            float height = jumpHeight;
+            if (bigJump != null && bigJump.isActiveAndEnabled && bigJump.TryUse(out float powerHeight))
+                height = powerHeight;
+
+            verticalVelocity = Mathf.Sqrt(height * -2f * gravity);
         }
 
         verticalVelocity += gravity * Time.deltaTime;

@@ -87,6 +87,16 @@
                     "priority": 0
                 },
                 {
+                    "name": "BigJump",
+                    "type": "Button",
+                    "id": "af79cbec-827e-4148-b922-6bed6767f3bb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
                     "name": "Reload",
                     "type": "Button",
                     "id": "2adc8812-0bc4-446f-b1f1-cfde51cf5a91",
@@ -244,11 +254,33 @@
                 {
                     "name": "",
                     "id": "8cbb2f4b-a784-49cc-8d5e-c010b8c7f4e6",
-                    "path": "<Gamepad>/leftShoulder",
+                    "path": "<Gamepad>/leftStickPress",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1f65fba3-cfd9-4eec-aa7f-6cc504384f7a",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "BigJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8b6c36c-6043-4a24-90dd-cfeeeecdd1af",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "BigJump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
